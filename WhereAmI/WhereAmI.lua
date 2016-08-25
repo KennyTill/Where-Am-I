@@ -26,6 +26,7 @@ function WhereAmI:HandleChanges()
         --do nothing, we are in an instance
         return
     end
+    -- this may only return the user's realm, I think some other addons are faking current server by parsing party leader's name
     if serverName ~= GetRealmName() then
         serverName = GetRealmName();
         self:Print("You are now on " .. serverName);
