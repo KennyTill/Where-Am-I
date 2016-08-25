@@ -1,0 +1,9 @@
+## Interface: 70000
+## Title: Where Am I?
+## Notes: Let's you know what server you are on
+## Author: Semiceri of Aggramar
+## Version: 0.1
+## DefaultState: Enabled
+
+embeds.xml
+WhereAmI.lua
